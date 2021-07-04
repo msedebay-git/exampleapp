@@ -11,7 +11,7 @@ phases:
     #  - docker tag $REPO_URL:latest $REPO_URL:$IMAGE_TAG
   post_build:
     commands:
-      - docker push origin master
+     #- docker push origin master
      # - docker push 
       
 
